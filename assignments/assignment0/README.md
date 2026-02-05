@@ -177,13 +177,13 @@ Finally, open the command palette (<kbd>Ctrl+Shift+P</kbd>), search for `Shell C
 2. Next install the `g++` compiler: 
 
     ```sh
-    sudo apt-get install g++-10
+    sudo apt-get install g++-14
     ```
 
 3. By default, the system version of `g++` will be used. To change it to the version you just installed, you can configure Linux to use G++ version 10 or a higher version installed like so: 
 
     ```sh
-    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-10 10
+    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-14 14
     ```
 
 4. Restart your terminal and verify that GCC was installed correctly. You must have a `g++` version of 10 or higher: 
